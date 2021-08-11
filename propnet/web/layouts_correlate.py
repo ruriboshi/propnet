@@ -17,7 +17,7 @@ from dash.exceptions import PreventUpdate
 
 import plotly.graph_objs as go
 
-from pymatgen import MPRester
+from pymatgen.ext.matproj import MPRester
 
 from pymongo.errors import ServerSelectionTimeoutError
 

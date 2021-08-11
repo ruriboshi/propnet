@@ -1,4 +1,4 @@
-from pymatgen.analysis.cost.cost import CostDBElements, CostAnalyzer
+from pymatgen.analysis.cost import CostDBElements, CostAnalyzer
 
 cost_analyzer = CostAnalyzer(CostDBElements())
 

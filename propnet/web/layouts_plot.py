@@ -14,7 +14,7 @@ from dash.exceptions import PreventUpdate
 
 from pydash import set_
 
-from pymatgen import MPRester
+from pymatgen.ext.matproj import MPRester
 from pymatgen.util.string import unicodeify
 
 # noinspection PyUnresolvedReferences

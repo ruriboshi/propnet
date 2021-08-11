@@ -1,4 +1,4 @@
-from pymatgen import Composition
+from pymatgen.core.composition import Composition
 
 def plug_in(symbol_values):
     f = symbol_values['formula']

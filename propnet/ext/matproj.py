@@ -2,7 +2,7 @@ from propnet.core.materials import Material
 from propnet.core.quantity import QuantityFactory
 from propnet.core.provenance import ProvenanceElement
 
-from pymatgen import MPRester as _MPRester
+from pymatgen.ext.matproj import MPRester as _MPRester
 
 # noinspection PyUnresolvedReferences
 import propnet.symbols

@@ -1,4 +1,4 @@
-from pymatgen.analysis.hhi.hhi import HHIModel
+from pymatgen.analysis.hhi import HHIModel
 
 hhi_model = HHIModel()
 
