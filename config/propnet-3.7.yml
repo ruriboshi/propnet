@@ -1,0 +1,46 @@
+name: propnet-3.7
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  #- gxx_linux-64
+  - pip
+  - numpy
+  - scipy
+  - sympy
+  - monty
+  - networkx
+  - Pint
+  - pydash
+  - scikit-learn
+  - uncertainties
+  - pymongo # database building
+  - chronic # timings
+  - pandas
+  - jupyterlab
+  # web app
+  - dash
+  - gunicorn
+  - Flask-Caching
+  - plotly
+  # references
+  - habanero
+  - pybtex
+  - pylatexenc
+  # materials project codes
+  - matminer
+  - pymatgen
+  - maggma
+  # aflow ingestion
+  - aflow
+  - six
+  - requests
+  # analysis
+  - minepy
+  - pip:
+    - dash-cytoscape
+    - isbnlib
+    - frozendict==1.2
+    # specific models
+    - gbml==1.1.2
+
